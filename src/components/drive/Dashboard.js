@@ -15,7 +15,6 @@ export default function Dashboard(){
 	const { folder, childFolders, childFiles } = useFolder(folderId, state.folder)
 
 	
-
 	return (
 		<>
 			<Navbar/>
@@ -23,7 +22,6 @@ export default function Dashboard(){
 				<Container fluid>
 					<div className='d-flex align-items-center'>
 						<FolderBreadcrumbs currentFolder={folder}/>
-						<AddFileButton currentFolder={folder}/> &nbsp;
 						<AddFolderButton currentFolder={folder}/>
 					</div>
 					&nbsp;

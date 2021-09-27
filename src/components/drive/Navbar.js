@@ -9,7 +9,7 @@ export default function NavbarComponent() {
 	return (
 		<Navbar bg="dark" variant="dark" expand="sm">
 
-			<Navbar.Brand as={Link} to="/">
+			<Navbar.Brand>
 				&ensp;
 				<FontAwesomeIcon icon={faHeadphones} 
 				className="mr-2"/>&nbsp;&nbsp;SoundSpace
